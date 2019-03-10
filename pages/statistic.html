@@ -1,0 +1,36 @@
+<h1 class="btns">Statistic</h1>
+
+<div class="row">
+    <div class="col-8 offset-2">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="statistic in statistics">
+                    <td>{{statistic.monday}}</td>
+                    <td>{{statistic.tuesday}}</td>
+                    <td>{{statistic.wednesday}}</td>
+                    <td>{{statistic.thursday}}</td>
+                    <td>{{statistic.friday}}</td>
+                    <td>{{statistic.saturday}}</td>
+                    <td>{{statistic.sunday}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+<div class="col-1-1">
+    <div class="btns">
+        <!-- <button>Home</button> -->
+        <a href="#/" class="btn btn-primary home">Home Page</a>
+    </div>
+</div>
+</div>
